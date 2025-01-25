@@ -25,6 +25,12 @@ header p {
     color: #9b7653;
     margin: 0;
 }
+header p.highlight {
+    font-family: 'Playfair Display', serif;
+    color: #ff6347;
+    font-size: 1em;
+    font-style: italic;
+}
 main {
     max-width: 600px;
     margin: 20px auto;
@@ -33,6 +39,7 @@ main {
 .menu-item {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 8px;
@@ -45,6 +52,7 @@ main {
     border-radius: 8px;
     margin-right: 15px;
     object-fit: cover;
+    float: left;
 }
 .menu-item div {
     flex: 1;
